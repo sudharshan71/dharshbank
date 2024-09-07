@@ -31,12 +31,10 @@ A simple bank account system implemented in Python, using SQLite as the database
 **Directory Structure**
 ---------------------
 
-* `bank_account_system/`: The package containing the system's modules
-	+ `__init__.py`: Initializes the package
-	+ `db.py`: Database module
-	+ `models.py`: Account and Transaction models
-	+ `transaction.py`: Transaction module
-	+ `bank_account_system.py`: The main system module
+* `src/`: The package containing the system's modules
+	+ `__main__.py`: Initializes the package
+	+ `main.py`: Database module
+	+ `bank.py`: Account and Transaction models & The main system module
 * `main.py`: The entry point for the system
 * `requirements.txt`: Lists the required dependencies
 
@@ -53,4 +51,4 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 **Author**
 ------
 
-[Your Name]
+Sudharshan
